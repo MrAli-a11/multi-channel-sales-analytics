@@ -78,3 +78,57 @@ Power BI Service
 - City-wise sales analysis
 - DAX measures for dynamic calculations
 - Published to Power BI Service
+
+## 📊 Business Problem
+
+Business data was spread across multiple platforms including Shopify, Petpooja, Swiggy, Zomato, Production, and Vendor records. Manual reporting was time-consuming, error-prone, and lacked a centralized view for decision-making.
+
+This project solves the problem by integrating data into a centralized BigQuery warehouse and providing an interactive Power BI dashboard for daily business insights.
+
+## 🚀 Key Outcomes
+
+- Centralized reporting across multiple business platforms
+- Reduced manual reporting effort
+- Improved data consistency using a structured data warehouse
+- Enabled faster business decision-making through interactive dashboards
+- Automated KPI reporting using Power BI and BigQuery
+
+<img width="1775" height="874" alt="image" src="https://github.com/user-attachments/assets/ca949039-4ae6-4a3c-832b-3634ec97b4dd" />
+
+## 📂 Repository Structure
+
+```text
+multi-channel-sales-analytics/
+│
+├── dashboard/
+│   └── Sales_Dashboard.pbix
+│
+├── screenshots/
+│   └── dashboard-overview.png
+│
+├── sql/
+│   ├── create_tables.sql
+│   ├── create_views.sql
+│   └── analysis_queries.sql
+│
+├── docs/
+│   └── architecture.md
+│
+└── README.md
+```
+
+## 🔮 Future Improvements
+
+- Implement scheduled data refresh
+- Add inventory forecasting dashboard
+- Integrate Python ETL pipeline
+- Add Row-Level Security (RLS)
+- Build executive and operational dashboards
+
+## 👨‍💻 Author
+
+**Hasnain Ali**
+
+- LinkedIn: www.linkedin.com/in/mr-ali123
+- Email: mrali9132@gmail.com
+
